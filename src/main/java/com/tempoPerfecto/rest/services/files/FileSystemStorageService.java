@@ -1,4 +1,4 @@
-package com.tempoPerfecto.rest.files;
+package com.tempoPerfecto.rest.services.files;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,6 +9,8 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.stream.Stream;
 
+import com.tempoPerfecto.rest.error.files.StorageException;
+import com.tempoPerfecto.rest.error.files.StorageFileNotFoundException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;

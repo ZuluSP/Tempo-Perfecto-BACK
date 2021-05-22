@@ -1,4 +1,4 @@
-package com.tempoPerfecto.rest.files;
+package com.tempoPerfecto.rest.error.files;
 
 public class StorageFileNotFoundException extends StorageException {
 

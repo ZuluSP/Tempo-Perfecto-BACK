@@ -1,4 +1,4 @@
-package com.tempoPerfecto.rest.files;
+package com.tempoPerfecto.rest.error.files;
 
 public class StorageException extends RuntimeException {
 
