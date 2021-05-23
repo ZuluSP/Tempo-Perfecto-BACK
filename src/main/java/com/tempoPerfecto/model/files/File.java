@@ -15,10 +15,22 @@ public class File {
 
     private String ruta;
 
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     private Long userId;
 
-    public File(String ruta, Long userId) {
+
+    public File(String ruta, String name, Long userId) {
         this.ruta = ruta;
+        this.name = name;
         this.userId = userId;
     }
 
